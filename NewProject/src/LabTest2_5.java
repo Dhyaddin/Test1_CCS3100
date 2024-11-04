@@ -10,7 +10,7 @@ public class LabTest2_5 {
 		double h,w,BMI;
 		
 		System.out.print("Please enter your name : ");
-		name = in.next();
+		name = in.nextLine();
 		
 		System.out.print("Enter your Weight in Kilogram(KG) : ");
 		w = in.nextDouble();
