@@ -14,25 +14,25 @@ public class Lab4_2 {
 		System.out.print("Matric: ");
 		numMatric = in.nextInt();
 		
-		System.out.print("Enter 1st Test: ");
+		System.out.print("Enter 1st Test (0-40): ");
 		fTest = in.nextInt();
 		int markFtest = (int) ((fTest/40.0) * 15);
 		
 		
-		System.out.print("Enter 2nd Test: ");
+		System.out.print("Enter 2nd Test (0-40): ");
 		sTest = in.nextInt();
 		int markStest = (int) ((sTest/40.0)* 20);
 		
-		System.out.print("Enter Assignment 1: ");
+		System.out.print("Enter Assignment 1 (0-50): ");
 		assg1 = in.nextInt();
-		System.out.print("Enter Assignment 2: ");
+		System.out.print("Enter Assignment 2 (0-50): ");
 		assg2 = in.nextInt();
-		System.out.print("Enter Assignment 3: ");
+		System.out.print("Enter Assignment 3 (0-50): ");
 		assg3 = in.nextInt();
 		double tAssg = (double) ((assg1 + assg2 + assg3) / 3.0);
 		int markAssg = (int) (((assg1 + assg2 + assg3) / 150.0) * 35.0);
 		
-		System.out.print("Enter your Final Exam mark: : ");
+		System.out.print("Enter your Final Exam mark (0-80): ");
 		fExam = in.nextInt();
 		int markFexam = (int) ((fExam/80.0) *30);
 		

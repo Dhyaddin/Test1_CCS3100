@@ -49,7 +49,7 @@ public class Lab4_4 {
         if (total > 3.00) {
             System.out.println("\nYour electricity bill is RM" + df.format(total) + ", for a usage of " + usageKwh + " kWh.");
         } else {
-            System.out.println("\nYour bill is below RM3.00 at RM" + df.format(total) + ", so it’s FREE!");
+            System.out.println("\nYour bill is below RM3.00 at RM so you need to pay RM3.00");
         }
     }
 }
