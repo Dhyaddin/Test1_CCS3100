@@ -8,7 +8,6 @@ public class Lab5_3 {
 		System.out.print("Guess the generated number between 1-100: ");
 		guess = in.nextInt();
 		
-		
 		while (guess != number) {
 			if (guess > number) {
 				System.out.println("\nThe number guess to big ");

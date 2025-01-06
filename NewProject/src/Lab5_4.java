@@ -10,7 +10,7 @@ public class Lab5_4 {
 		double total;
 		
 		for(x=1; x!=20; x++) {
-			System.out.print("Please enter the mileage for staff " + x + ": ");
+			System.out.print("Please enter the mileage for staff (" + x + ") in (KM): ");
 			trip = in.nextInt();
 			
 			if (trip > 500) {

@@ -130,27 +130,27 @@ public class Lab5_1 {
         for (int i = 0; i < numStudents; i++) {
             System.out.println("\nEntering details for student " + (i + 1) + ":");
 
-            System.out.print("Enter 1st Test: ");
+            System.out.print("Enter 1st Test (0-40): ");
             int fTest = in.nextInt();
             int markFtest = (int) ((fTest / 40.0) * 15);
             totalFtest += markFtest;
 
-            System.out.print("Enter 2nd Test: ");
+            System.out.print("Enter 2nd Test (0-40): ");
             int sTest = in.nextInt();
             int markStest = (int) ((sTest / 40.0) * 20);
             totalStest += markStest;
 
-            System.out.print("Enter Assignment 1: ");
+            System.out.print("Enter Assignment 1 (0-50): ");
             int assg1 = in.nextInt();
-            System.out.print("Enter Assignment 2: ");
+            System.out.print("Enter Assignment 2 (0-50): ");
             int assg2 = in.nextInt();
-            System.out.print("Enter Assignment 3: ");
+            System.out.print("Enter Assignment 3 (0-50): ");
             int assg3 = in.nextInt();
             double avgAssg = (assg1 + assg2 + assg3) / 3.0;
             int markAssg = (int) (((assg1 + assg2 + assg3) / 150.0) * 35.0);
             totalAssg += markAssg;
 
-            System.out.print("Enter Final Exam mark: ");
+            System.out.print("Enter Final Exam mark (0-80): ");
             int fExam = in.nextInt();
             int markFexam = (int) ((fExam / 80.0) * 30);
             totalFexam += markFexam;
